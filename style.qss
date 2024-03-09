@@ -1,0 +1,67 @@
+QFrame#fr_fondo{
+    background: #05182a;
+    border:6px solid #223048;
+    border-radius: 30px;
+}
+
+QPushButton#btn_cerrar{
+    background: #ac0003;
+    border-radius: 10px;
+}
+
+QPushButton#btn_cerrar:hover{
+    background: #ff0008;
+    color: black;
+}
+
+QPushButton#btn_minimizar{
+    background: #666666;
+    border-radius: 10px;
+}
+
+QPushButton#btn_minimizar:hover{
+    background: #a8a8a8;
+}
+
+QLabel#lbl_titulo{
+    font: 30px arial;
+    border: 6px solid #223048;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #3b5d9b;
+}
+
+
+QLineEdit#txte_line, QPlainTextEdit#ptxte_lines{
+    font: 20px arial;
+    background: #11334c;
+    color: rgb(138, 150, 213);
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+QPushButton#btn_cont{
+    font: 20px arial;
+    border: 3px solid #11334c;
+    background: #2d96ff;
+    border-radius: 15px;
+}
+
+QPushButton#btn_cont:hover{
+    background: transparent;
+    color: #2d96ff;
+}
+
+QPushButton#btn_cont:pressed{
+    padding-left: 10px;
+}
+
+QLabel#lbl_autor{
+    font: 20px arial;
+    border: 6px solid #223048;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 15px;
+    color: #a5b3ff;
+}
+
+/** Author: FraVelz */
